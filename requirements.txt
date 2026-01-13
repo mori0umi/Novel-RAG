@@ -1,0 +1,8 @@
+torch>=2.0
+sentence-transformers>=2.2
+faiss-cpu
+transformers>=4.39
+accelerate>=0.27
+bitsandbytes>=0.41
+einops
+requests
