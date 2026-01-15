@@ -15,7 +15,7 @@ TOP_K = 5
 MAX_NEW_TOKENS = 500
 EMBEDDING_MODEL_NAME = "BAAI/bge-small-zh-v1.5"
 
-RETRIEVER_TYPE = "faiss"  # 可选：faiss, hnswlib, simple
+RETRIEVER_TYPE = "faiss"  # 可选：faiss, bm25，hybrid
 
 USE_RERANK = True
 RERANK_MODEL_NAME = "BAAI/bge-reranker-base"
@@ -26,7 +26,7 @@ LOCAL_LLM_MODEL_NAME = "Qwen/Qwen2-1.5B-Instruct"
 
 # ========== API 配置（当 USE_LOCAL_LLM=False 时生效）==========
 
-LLM_API_KEY = os.getenv("LLM_API_KEY", "") 
+LLM_API_KEY = os.getenv("LLM_API_KEY", "") # 请在环境变量中设置您的 API Key
 LLM_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"   
 API_LLM_MODEL_NAME = "doubao-seed-1-6-251015"          
 
