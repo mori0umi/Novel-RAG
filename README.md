@@ -97,8 +97,8 @@ python evaluate_rag.py
 │   └── rag_engine.py       # RAG引擎核心
 ├── data/
 │   ├── novel.txt           # 小说文本
-│   ├── TBP161.json         # 评估问题
-│   └── TBP30.json          # 其他数据
+│   ├── TBP161.json         # 161条评估问题
+│   └── TBP30.json          # 30条小规模评估问题
 ├── models/
 │   ├── embedding.py        # 嵌入模型
 │   ├── llm_api.py          # API LLM
