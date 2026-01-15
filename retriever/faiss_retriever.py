@@ -8,7 +8,6 @@ from config import EMBEDDING_MODEL_NAME
 from sentence_transformers import CrossEncoder
 
 
-
 class FaissRetriever(BaseRetriever):
     def __init__(
         self,

@@ -33,10 +33,7 @@ def split_text(
 
     i = 0
     total = len(sentences)
-
     sentence_iter = tqdm(enumerate(sentences), total=total, disable=not show_progress, desc="Splitting text")
-
-
     while i < total:
         sentence = sentences[i]
         # 如果当前块为空，直接加入

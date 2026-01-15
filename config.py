@@ -26,7 +26,7 @@ LOCAL_LLM_MODEL_NAME = "Qwen/Qwen2-1.5B-Instruct"
 
 # ========== API 配置（当 USE_LOCAL_LLM=False 时生效）==========
 
-LLM_API_KEY = os.getenv("LLM_API_KEY", "")  # 通过环境变量传入，$env:LLM_API_KEY = "18b8cfd6-4052-4a1b-94b4-abbad87a9fe1"
+LLM_API_KEY = os.getenv("LLM_API_KEY", "") 
 LLM_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"   
 API_LLM_MODEL_NAME = "doubao-seed-1-6-251015"          
 

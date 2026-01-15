@@ -24,7 +24,6 @@ def main():
         try:
             answer, context = engine.answer(question)
             print(f"💡 回答：{answer}\n")
-            # print(f"💡 相关上下文：{context}\n")
         except Exception as e:
             print(f"⚠️ 出错：{e}\n")
 
